@@ -1,0 +1,103 @@
+html body {
+  margin: 0;
+  padding: 0;
+  background-color: whitesmoke;
+  font-family: 'Raleway', sans-serif;
+}
+
+div.container-fluid {
+  padding: 30px 0;
+}
+
+.topNav {
+  padding: 0 20px;
+}
+
+.barLoad {
+  padding-top: 0px;
+}
+
+.repMax {
+  background-color: white;
+  background-size: cover;
+  display: block;
+  margin: 0 0;
+  padding: 0 0;
+}
+
+/* Header and Navigation bar style */
+.header {
+  height: 40px;
+}
+
+.navbar-brand {
+  float: left;
+  text-transform: uppercase;
+  color: white;
+}
+
+.navbar-collapse {
+
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 22px 0 0 0;
+  float: right;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-transform: uppercase;
+  display: block;
+}
+/* End Header and Navigation bar styling */
+.bar {
+  width: 432;
+}
+
+.barbell {
+  margin: 100px 0 80px 0;
+  height: 100px;
+  overflow: hidden;
+}
+
+}
+/* submitbutton, form, and table styling */
+.submitbutton, .submitbuttonTwo, .submitbuttonThree {
+  background-color: white;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px #999;
+}
+
+.submitbutton:hover .submitbuttonTwo:hover {
+  background-color: whitesmoke;
+}
+
+.submitbutton:active, .submitbuttonTwo:active, .submitbuttonThree:active {
+  background-color: ghostwhite;
+  box-shadow: 0 1px #666;
+  transform: translateY(2px);
+}
+
+table, th, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+#inputfield, #oneRepMaxInput, #maxWeight {
+  border-radius: 3px;
+}
+/* End submitbutton, form, and table styling */
